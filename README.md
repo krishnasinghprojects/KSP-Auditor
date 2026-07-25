@@ -9,7 +9,6 @@ KSP Auditor is a premium, serverless web application built to analyze the struct
 - **Context-Aware AI Assistant**: Powered by the Gemini API, the integrated chatbot natively ingests your exact audit metrics and generated recommendations. It provides hyper-specific, actionable advice for the precise URL you are analyzing.
 - **Deep Structural Analytics**: Utilizes high-performance DOM parsing (`cheerio`) to extract paragraphs, H1 counts, internal/external links, missing image alts, and script/stylesheet usage—bypassing CORS entirely on the serverless backend.
 - **Deterministic Scoring Engine**: Calculates a strict, predictable score out of 100 based on core SEO fundamentals, entirely transparent to the user.
-- **Database-Free Sharing**: Share your audit reports instantly via unique URLs. Our serverless architecture encodes the target URL dynamically into the route (`/[slug]`), rendering the live report for anyone on the internet without bloated database storage.
 - **Lightning-Fast PDF Export**: Instantly export your clean, data-focused audit report to PDF using `jsPDF`.
 - **Premium Glassmorphism UI**: A strictly monochrome (black, white, and gray) design language prioritizing focus and data legibility over unnecessary colors. Fully responsive across desktop and mobile.
 
