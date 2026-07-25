@@ -1,16 +1,16 @@
-# KSP Auditor 🚀
+# KSP Auditor 
 
 > **Deterministic SEO Auditing. Powered by AI.**
 
 KSP Auditor is a premium, serverless web application built to analyze the structural SEO of any webpage instantly. Stripping away cluttered interfaces and arbitrary scoring, KSP Auditor delivers a deterministic, transparent analysis wrapped in a stunning monochrome glassmorphism UI.
 
-## 🛠 Setup & Installation
+## Setup & Installation
 
 Follow these steps to run KSP Auditor locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/krishnasinghprojects/KSP-Auditor
    cd "Digital Heroes"
    ```
 
@@ -32,7 +32,7 @@ Follow these steps to run KSP Auditor locally:
    ```
    Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🔌 API Contract
+## API Contract
 
 KSP Auditor exposes two primary serverless endpoints that power the application:
 
@@ -97,7 +97,7 @@ Consults the Context-Aware AI Assistant using the audit metrics.
 }
 ```
 
-## 🧠 Architectural Design Decisions
+## Architectural Design Decisions
 
 Here are 3 core technical decisions made during development and the reasoning behind them:
 
@@ -118,7 +118,7 @@ Here are 3 core technical decisions made during development and the reasoning be
 - **Zero Infrastructure**: This removes the need for database maintenance, user authentication flows, and heavy backend scaling.
 - **Privacy & Speed**: The user's audit history and AI chats are loaded instantly without network latency. The chat history is securely sandboxed to the specific URL being audited, ensuring conversations don't bleed across different domains.
 
-## 🧪 Testing
+## Testing
 
 KSP Auditor uses Vitest for ensuring robust URL normalization and DOM parsing logic:
 
@@ -126,5 +126,5 @@ KSP Auditor uses Vitest for ensuring robust URL normalization and DOM parsing lo
 npm run test
 ```
 
-## 👨‍💻 Built By
+## Built By
 Built as a premium production-grade application for Digital Heroes.
